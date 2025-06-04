@@ -1,14 +1,14 @@
-org: geraldocolchado
+org: jhonchilo
 service: api-s3
 
 provider:
   name: aws
-  runtime: python3.12	
+  runtime: python3.13	
   # Default memory size for functions (default: 256MB)
   memorySize: 256
   timeout: 30
   iam:
-    role: arn:aws:iam::447891120606:role/LabRole
+    role: arn:aws:iam::439947773262:role/LabRole
 
 functions:
   lista_buckets:
